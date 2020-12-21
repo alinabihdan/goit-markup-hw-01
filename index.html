@@ -3,121 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Studio</title>
 </head>
 <body>
-    <div class="wrapper">
         <header class="header">
             <div class="container">
-                    <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
-                    <!--logo image-->
-                    <nav class="header-menu-items">
-                        <a href="#" class="header-menu__link">Студия</a>
-                        <a href="#" class="header-menu__link">Портфолио</a>
-                        <a href="#" class="header-menu__link">Контакты</a>
+                    <nav class="header-menu">
+                        <ul class="header-menu-list">
+                            <li><a href="#" class="logo"><span>Web</span><span>Studio</span></a></li>
+                            <li><a href="#" class="header-menu__link">Студия</a></li>
+                            <li><a href="portfolio.html" class="header-menu__link">Портфолио</a></li>
+                            <li><a href="#" class="header-menu__link">Контакты</a></li>
+                        </ul>
                     </nav>
                     <!-- nav end-->
-                    <div class="header__contacts">
-                        <a href="mailto:info@devstudio.com" class="contacts__item">info@devstudio.com</a>
-                        <a href="tel:+38 096 111 11 11" class="contacts__item">+38 096 111 11 11</a>
-                    </div>
+                    <ul class="header__contacts">
+                        <li><a href="mailto:info@devstudio.com" class="contacts__item">info@devstudio.com</a></li>
+                        <li><a href="tel:+380961111111" class="contacts__item">+38 096 111 11 11</a></li>
+                    </ul>
             </div>
         </header>
         <!--header end-->
-        <section class="order-service">
-            <div class="container">
-                <h1 class="order-service__title">Эффективные решения <br> для вашего бизнеса</h1>
-                <button type="button" class="order-service__button">Заказать услугу</button>
-            </div>
-        </section>
-        <!-- order service-->
-        <section>
-            <div class="container">
-                <div class="features">
-                    <div class="features-column">
-                        <h4 class="features__title">Внимание к деталям</h4>
-                        <p class="features__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                    </div>
-                    <!--feature column-->
-                    <div class="features-column">
-                        <h4 class="features__title">Пунктуальность</h4>
-                        <p class="features__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                    </div>
-                     <!--feature column-->
-                    <div class="features-column">
-                        <h4 class="features__title">Планирование</h4>
-                        <p class="features__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                    </div>
-                     <!--feature column-->
-                    <div class="features-column">
-                        <h4 class="features__title">Современные технологии</h4>
-                        <p class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                    </div>
-                     <!--feature column-->
+        <main>
+            <section class="order-service">
+                <div class="container">
+                    <h1 class="order-service__title">Эффективные решения <br> для вашего бизнеса</h1>
+                    <button type="button" class="order-service__button">Заказать услугу</button>
                 </div>
-            </div>
-        </section>
-        <!--features-->
-        <section class="what-we-do">
-            <div class="container">
-                <h3 class="what-we-do__title">Чем мы занимаемся</h3>
-                <div class="what-we-do-list">
-                    <a href="#" class="what-we-do__link">
-                        <img src="images/what-we-do1.jpg" alt="">
-                    </a>
-                    <a href="#" class="what-we-do__link">
-                        <img src="images/what-we-do2.jpg" alt="">
-                    </a>
-                    <a href="#" class="what-we-do__link">
-                        <img src="images/what-we-do3.jpg" alt="">
-                    </a>
+            </section>
+            <!-- order service-->
+            <section class="features">
+                <div class="container">
+                    <ul class="features-list">
+                        <li class="features-column">
+                            <h3 class="features__title">Внимание к деталям</h3>
+                            <p class="features__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        </li>
+                        <!--feature column-->
+                        <li class="features-column">
+                            <h3 class="features__title">Пунктуальность</h3>
+                            <p class="features__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        </li>
+                        <!--feature column-->
+                        <li class="features-column">
+                            <h3 class="features__title">Планирование</h3>
+                            <p class="features__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        </li>
+                        <!--feature column-->
+                        <li class="features-column">
+                            <h3 class="features__title">Современные технологии</h3>
+                            <p class="features__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        </li>
+                        <!--feature column-->
+                    </ul>
                 </div>
-            </div>
-        </section>
-        <!-- what we do -->
-        <section class="team">
-            <div class="container">
-                <h3 class="team__title">Наша команда</h3>
-                <div class="team-members">
-                    <div class="team__card">
-                        <img src="images/member1.jpg" alt="" class="member-img">
-                        <p class="member-name">Игорь Демьяненко</p>
-                        <p class="member-role">Product Designer</p>
-                    </div>
-                    <!--first member-->
-                    <div class="team__card">
-                        <img src="images/member2.jpg" alt="" class="member-img">
-                        <p class="member-name">Ольга Репина</p>
-                        <p class="member-role">Frontend Developer</p>
-                    </div>
-                    <!--second member-->
-                    <div class="team__card">
-                        <img src="images/member3.jpg" alt="" class="member-img">
-                        <p class="member-name">Николай Тарасов</p>
-                        <p class="member-role">Marketing</p>
-                    </div>
-                    <!--third member-->
-                    <div class="team__card">
-                        <img src="images/member4.jpg" alt="" class="member-img">
-                        <p class="member-name">Михаил Ермаков</p>
-                        <p class="member-role">UI Designer</p>
-                    </div>
-                    <!--fourth member-->
+            </section>
+            <!--features-->
+            <section class="what-we-do">
+                <div class="container">
+                    <h2 class="what-we-do__title">Чем мы занимаемся</h2>
+                    <ul class="what-we-do-list">
+                        <li>
+                            <img src="images/what-we-do1.jpg" alt="" width="370">
+                        </li>
+                        <li>
+                            <img src="images/what-we-do2.jpg" alt="" width="370">
+                        </li>
+                        <li>
+                            <img src="images/what-we-do3.jpg" alt="" width="370">
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </section>
-        <!--our team-->
+            </section>
+            <!-- what we do -->
+            <section class="team">
+                <div class="container">
+                    <h2 class="team__title">Наша команда</h2>
+                    <ul class="team-members">
+                        <li class="team__card">
+                            <img src="images/member1.jpg" alt="" class="member-img" width="270" height="260">
+                            <p class="member-name">Игорь Демьяненко</p>
+                            <p class="member-role">Product Designer</p>
+                        </li>
+                        <!--first member-->
+                        <li class="team__card">
+                            <img src="images/member2.jpg" alt="" class="member-img" width="270" height="260">
+                            <p class="member-name">Ольга Репина</p>
+                            <p class="member-role">Frontend Developer</p>
+                        </li>
+                        <!--second member-->
+                        <li class="team__card">
+                            <img src="images/member3.jpg" alt="" class="member-img" width="270" height="260">
+                            <p class="member-name">Николай Тарасов</p>
+                            <p class="member-role">Marketing</p>
+                        </li>
+                        <!--third member-->
+                        <li class="team__card">
+                            <img src="images/member4.jpg" alt="" class="member-img" width="270" height="260">
+                            <p class="member-name">Михаил Ермаков</p>
+                            <p class="member-role">UI Designer</p>
+                        </li>
+                        <!--fourth member-->
+                    </ul>
+                </div>
+            </section>
+            <!--our team-->
+        </main>
         <footer class="footer">
-            <div class="container">
-                <div class="logo logo-bottom"><img src="images/logo.svg" alt=""></div>
-                <div class="adress">г. Киев, пр-т Леси Украинки, 26</div>
-                <a href="mailto:info@devstudio.com" class="contacts__item contacts__item-bottom">info@devstudio.com</a>
-                <a href="tel:+38 096 111 11 11" class="contacts__item contacts__item-bottom">+38 096 111 11 11</a>
-            </div>
+            <p class="container">
+                <a href="index.html" class="logo logo-bottom"><span>Web</span> <span>Studio</span></a>
+                <adress>г. Киев, пр-т Леси Украинки, 26
+                    <a href="mailto:info@devstudio.com" class="contacts__item contacts__item-bottom">info@devstudio.com</a>
+                    <a href="tel:+380961111111" class="contacts__item contacts__item-bottom">+38 096 111 11 11</a>
+               </adress>
+               
+            </p>
         </footer>
-    </div>
 </body>
 </html>
